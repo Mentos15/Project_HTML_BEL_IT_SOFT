@@ -1,0 +1,132 @@
+.our-teamwork,
+.our-skills{
+  min-height: 700px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  
+}
+.our-teamwork__title{
+  font-size: 30px;
+  margin: 0px auto 50px auto;
+}
+.our-teamwork__content{
+  display: flex;
+  flex-wrap: wrap;
+}
+.our-teamwork-content__column{
+  display: flex;
+}
+.our-teamwork__content .our-teamwork-content__column:first-child{
+  margin-right: 30px;
+}
+.our-teamwork__text{
+  font-size: 16px;
+  margin: 0px auto 100px auto;
+}
+.our-teamwork-content__person{
+  width: 260px;
+  height: 350px;
+  margin-right: 30px;
+  border: 2px solid #e7e7e7;
+}
+
+.our-teamwork__text .red,
+.our-teamwork__title .red{
+  color: #ff0036;
+}
+.our-teamwork-content-person__photo-1,
+.our-teamwork-content-person__photo-3,
+.our-teamwork-content-person__photo-4{
+  height: 60%;
+  width: inherit;
+  background-image: url(../img/our-teamwork/1.png);
+  background-repeat: no-repeat;
+  margin-bottom: 10%;
+  position: relative;
+}
+.our-teamwork-content-person__photo-3{
+  background-image: url(../img/our-teamwork/3.png);
+}
+.our-teamwork-content-person__photo-4{
+  background-image: url(../img/our-teamwork/4.png);
+}
+.our-teamwork-content-person__name{
+  width: inherit;
+  text-align: center;
+  height: 10%;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 10%;
+}
+.our-teamwork-content-person__spec{
+  width: inherit;
+  height: 10%;
+  text-align: center;
+  font-size: 16px;
+}
+
+.our-teamwork-content-person__sots-list{
+  display: flex;
+  height: 100%;
+  width: inherit;
+  justify-content: center;
+}
+.facebook,
+.twitter,
+.google{
+  width: 50px;
+  height: 50px;
+  margin: 30% 7px 0px 0px;
+  background-image: url(../img/our-teamwork/facebook.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: none;
+}
+.twitter{
+  background-image: url(../img/our-teamwork/twitter.png);
+}
+.google{
+  background-image: url(../img/our-teamwork/g+.png);
+}
+.our-teamwork-content__person:hover .our-teamwork-content-person__photo-1,
+.our-teamwork-content__person:hover .our-teamwork-content-person__photo-3,
+.our-teamwork-content__person:hover .our-teamwork-content-person__photo-4{
+  background-image: url(../img/our-teamwork/hover.png);
+}
+.our-teamwork-content__person:hover .facebook,
+.our-teamwork-content__person:hover .twitter,
+.our-teamwork-content__person:hover .google{
+  display: inherit;
+}
+.our-teamwork__content .our-teamwork-content__person:last-child{
+  margin-right: 0px;
+}
+.our-teamwork-content__person:hover .our-teamwork-content-person__name{
+  color: #ff0036;
+}
+
+@media screen and (max-width: 1147px){
+  .our-teamwork-content__person{
+    margin-bottom: 30px;
+  }
+  .our-teamwork__content{
+    flex-direction: column;
+  }
+  .our-teamwork__content .our-teamwork-content__column:first-child{
+    margin-right: 0px;
+    margin: auto;
+  }
+  .our-teamwork-content__column{
+    margin: auto;
+  }
+}
+@media screen and (max-width:560px){
+  .our-teamwork-content__column{
+    flex-direction: column;
+  }
+  .our-teamwork-content__person{
+    margin-right: 0px;
+  }
+}

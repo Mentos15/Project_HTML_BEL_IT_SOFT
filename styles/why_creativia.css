@@ -1,0 +1,144 @@
+.why-creativia, .why-creativia-body,.first-background,.second-background{
+  height: 630px;
+  display: flex;
+  width: 1170px;
+  width: 100%;
+}
+
+
+
+.second-background{
+  background-image: url(../img/why_creativia/background.jpg);
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.why-creativia__title .why,.why-creativia__title .creativia{
+  color: #fff;
+  font-size: 30px;
+  
+}
+.why-creativia__title .creativia{
+  color:#ff0036;
+}
+.why-creativia__title{
+  margin: 0 auto 50px auto;
+  z-index: 2;
+}
+.why-creativia__text{
+  width: 1030px;
+  font-size: 16px;
+  margin: 0 auto 0 auto;
+  color: #fff;
+  margin-bottom: 70px;
+  z-index: 2;
+}
+.why-creativia-buttons{
+  width: 360px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  line-height: 50px;
+  margin: 0 auto 0 auto;
+  z-index: 2;
+}
+.reatures-btn, .free-psd-btn{
+  background-color: #ff0036;
+  width: 170px;
+}
+.free-psd-btn{
+  background-color: #131313;
+}
+.free-psd-btn__link, .reatures-btn__link{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  height: 100%;
+}
+.why-creativia-body{
+}
+
+.left-arrow{
+    position: absolute;
+    width: 60px;
+    height: 100%;
+    background-image: url(../img/why_creativia/left.png);
+    background-position: 15px 50%;
+    background-repeat: no-repeat;
+    opacity: 1;
+    color: #a4a4a4;   
+}
+.right-arrow{
+  position: absolute;
+  width: 60px;
+  height: 100%;
+  background-image: url(../img/why_creativia/left.png) ;
+  background-position:  50%;
+  right: 00px;
+  background-repeat: no-repeat;
+  transform: scale(-1,1);
+}
+
+@media screen and (max-width:1350px){
+  
+}
+@media screen and (max-width:1020px){
+  .second-background{
+  
+    justify-content: flex-start;
+  }
+  .why-creativia__title{
+    margin: 50px 0 0 0;
+  }
+  .why-creativia__text{
+    margin: 80px auto 80px auto;
+  }
+  
+}
+
+@media screen and (max-width:1170px){
+  .why-creativia__text{
+    width: 700px;
+  }
+ 
+}
+
+@media screen and (max-width:850px){
+  .right-arrow, .left-arrow{
+  background-size: 20px;
+  }
+  .why-creativia__text{
+    width: 400px;
+  }
+  .why-creativia-buttons{
+    width: 310px;
+  }
+  .reatures-btn, .free-psd-btn{
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .second-background{
+    height: fit-content;
+  }
+  .why-creativia-body{
+    height: auto;
+  }
+  .why-creativia{
+    height: 405px;
+  }
+}
+@media screen and (max-width:500px){
+  .why-creativia__text{
+    width: 200px;
+  }
+  .why-creativia{
+    height: 500px;
+  }
+}

@@ -1,0 +1,210 @@
+.portfolio{
+  background-color: #262626;
+  height: 1075px;
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  position: relative;
+}
+.portfolio-header{
+  margin: 100px auto 100px auto;
+}
+.portfolio-header-menu{
+  margin-top: 25px;
+  width: auto;
+}
+.portfolio-header__title{
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+}
+
+.portfolio-header-menu__list{
+  display: flex;
+  list-style-type: none;
+  padding-inline-start: 0px
+}
+.portfolio-header-menu__list li{
+  margin-left: 20px;
+  font-size: 20px;
+}
+.portfolio-header-menu__link{
+  color: #8e8e8e;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.portfolio-header-menu__link:hover{
+  color: #ff0036;
+}
+.portfolio-header-menu__list li:first-child{
+  margin-left: 0px;
+}
+.portfolio-arts-row{
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  margin: 0 1% 0 1%;
+}
+
+.portfolio-arts__photo-1,
+.portfolio-arts__photo-2,
+.portfolio-arts__photo-3,
+.portfolio-arts__photo-4,
+.portfolio-arts__photo-5,
+.portfolio-arts__photo-6,
+.portfolio-arts__photo-7,
+.portfolio-arts__photo-8{
+  background-image: url(../img/portfolio/1.png);
+  height: inherit;
+  width: 28%;
+  position: relative;
+}
+.portfolio-arts__photo-2{
+  background-image: url(../img/portfolio/2.png);
+  width: 21%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.portfolio-arts__photo-3{
+  background-image: url(../img/portfolio/3.png);
+}
+.portfolio-arts__photo-4,
+.portfolio-arts__photo-5,
+.portfolio-arts__photo-7{
+  background-image: url(../img/portfolio/4.png);
+  width: 21%;
+}
+.portfolio-arts__photo-5{
+  background-image: url(../img/portfolio/5.png);
+}
+.portfolio-arts__photo-6{
+  background-image: url(../img/portfolio/6.png);
+}
+.portfolio-arts__photo-7{
+  background-image: url(../img/portfolio/7.png);
+}
+.portfolio-arts__photo-8{
+  background-image: url(../img/portfolio/8.png);
+}
+.portfolio-arts__photo-1-1,
+.portfolio-arts__photo-3-1,
+.portfolio-arts__photo-4-1,
+.portfolio-arts__photo-5-1,
+.portfolio-arts__photo-6-1,
+.portfolio-arts__photo-7-1,
+.portfolio-arts__photo-8-1{
+  background-image: url(../img/portfolio/1-1.png);
+  height: inherit;
+  position: relative;
+  width: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.portfolio-arts__photo-2-1{
+  background-image: url(../img/portfolio/2-1.png);
+  height: inherit;
+  width: 100%;
+}
+.portfolio-arts__photo-3-1{
+  background-image: url(../img/portfolio/3-1.png);
+  
+}
+.portfolio-arts__photo-4-1{
+  background-image: url(../img/portfolio/4-1.png);
+  
+}
+.portfolio-arts__photo-5-1{
+  background-image: url(../img/portfolio/5-1.png);
+  
+}
+.portfolio-arts__photo-6-1{
+  background-image: url(../img/portfolio/6-1.png);
+  
+}
+.portfolio-arts__photo-7-1{
+  background-image: url(../img/portfolio/7-1.png);
+  
+}
+.portfolio-arts__photo-8-1{
+  background-image: url(../img/portfolio/8-1.png); 
+}
+.portfolio-arts__plus{
+  background-image: url(../img/portfolio/plus.png); 
+  height: inherit;
+  background-position: 50% 45%;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-align: center;
+  line-height: 450px;
+
+}
+.red-line{
+  height: 20px;
+  display: flex;
+  justify-content: center; 
+  position: absolute;
+  top: 99.15%;
+  left: 33%;
+}
+.red-line .left,.red-line .right{
+  background-image: url(../img/portfolio/left.png);
+  width: 245px;
+  height: 1px;
+  margin: auto 0 auto 0;
+}
+.red-line .center{
+  background-image: url(../img/portfolio/center.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20px;
+}
+
+@media screen and (max-width:1024px){
+  .red-line{
+    left: 25%;
+  }
+}
+@media screen and (max-width:768px){
+  .portfolio-header-menu__list li{
+    margin-left: 15px;
+    font-size: 12.5px;
+  }
+  .portfolio-arts__photo-2,
+  .portfolio-arts__photo-4,
+  .portfolio-arts__photo-5,
+  .portfolio-arts__photo-7{
+    width: 0px;
+  }
+
+  .portfolio-arts__photo-1,
+  .portfolio-arts__photo-3,
+  .portfolio-arts__photo-6,
+  .portfolio-arts__photo-8{
+    width: 50%;
+  }
+  .red-line{
+    left: 33%;
+  }
+  .red-line .left,.red-line .right{
+    width: 100px;
+    
+  }
+  .our-product-features__content .center-column,
+  .our-product-features__content .right-column{
+    display: none;
+  }
+  .our-product-features,
+  .our-product-features__content{
+    min-height: 0px !important;
+    height: auto !important;
+  }
+}
+
+@media screen and (max-width:425px){
+  .red-line{
+    left: 18%;
+  }
+}

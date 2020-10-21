@@ -1,0 +1,27 @@
+.footer{
+  height: 75px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  background-color: #262626;
+  color: #8e8e8e;
+  line-height: 75px;
+}
+.footer__column:first-child{
+  flex: 0 0 80%;
+  background-image: url(../img/footer/logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+.footer__column:last-child{
+  display: flex;
+  flex: 0 0 20%;
+  justify-content: center;
+}
+@media screen and (max-width:768px){
+  .footer__column:last-child,
+  .footer__column:first-child{
+    flex: 0 0 50%;
+  }
+} 

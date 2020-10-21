@@ -1,0 +1,58 @@
+.our-skills-content__progress{
+  width: 160px;
+  height: auto;
+  margin: 0px 20px 20px 0px ;
+}
+.our-skills__title{
+  font-size: 30px;
+  margin: 50px auto 50px auto;
+}
+.our-skills .red{
+  color: #ff0036;
+}
+.our-skills__text{
+  margin: 0px auto 100px 0px;
+}
+.our-skills-content-progress__photo-90,
+.our-skills-content-progress__photo-80,
+.our-skills-content-progress__photo-70{
+  background-image: url(../img/our-skills/90.png);
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 10%;
+}
+.our-skills-content-progress__photo-80{
+  background-image: url(../img/our-skills/80.png);
+}
+.our-skills-content-progress__photo-70{
+  background-image: url(../img/our-skills/70.png);
+}
+.our-skills-content-progress__title{
+  text-transform: uppercase;
+  font-size: 20px;
+  height: 10%;
+  margin-bottom: 10%;
+}
+.our-skills-content__row{
+  display: flex;
+}
+.our-skills__content{
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width:768px){
+  .our-skills__content{
+    flex-direction: column;
+  }
+  .our-skills-content__row{
+    margin: auto;
+  }
+  .our-skills-content__row .our-skills-content__column:last-child .our-skills-content__progress{
+    margin-right: 0px;
+  }
+  .our-skills-content__progress{
+    width: 150px;
+  }
+}

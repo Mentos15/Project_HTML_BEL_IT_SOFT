@@ -1,0 +1,124 @@
+.our-sevices{
+  min-height: 900px;
+  text-align: center;
+  background-image: url(../img/our-services/bg.png);
+  color: #717171;
+  padding-top: 100px;
+  position: relative;
+}
+.our-sevices .red-line{
+  top: 99%;
+}
+.our-sevices__title{
+  font-size: 30px;
+  margin: 0px auto 50px auto;
+  color: #fff;
+}
+.our-sevices .red{
+  color: #ff0036;
+}
+.our-sevices-content__column{
+  width: 48%;
+}
+.our-sevices__content{
+  margin: 100px auto 100px auto;
+  height: auto;
+  width: inherit;
+}
+.our-sevices-content__row{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+.our-sevices-content__header{
+  display: flex;
+  margin-bottom: 25px;
+}
+.our-sevices-content-header__title{
+  line-height: 60px;
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.our-sevices-content-header__logo-dev,
+.our-sevices-content-header__logo-html,
+.our-sevices-content-header__logo-press,
+.our-sevices-content-header__logo-applic,
+.our-sevices-content-header__logo-ui,
+.our-sevices-content-header__logo-respons{
+  width: 70px;
+  height: 60px;
+  background-image: url(../img/our-services/html-unactive.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 30px;
+}
+.our-sevices-content-header__logo-press{
+  background-image: url(../img/our-services/word-unactive.png);
+}
+.our-sevices-content-header__logo-dev{
+  background-image: url(../img/our-services/dev-unactive.png);
+}
+.our-sevices-content-header__logo-applic{
+  background-image: url(../img/our-services/appl-unactive.png);
+}
+.our-sevices-content-header__logo-ui{
+  background-image: url(../img/our-services/ui-unactive.png);
+}
+.our-sevices-content-header__logo-respons{
+  background-image: url(../img/our-services/resp-unactive.png);
+}
+.our-sevices-content__text{
+  background-color: #343434;
+  padding: 15px;
+  text-align: left;
+}
+.our-sevices-content__column:hover .our-sevices-content__text{
+  background-color: #3d2329;
+}
+.our-sevices-content__column:hover .our-sevices-content-header__logo-html{
+  background-image: url(../img/our-services/html-active.png);
+}
+.our-sevices-content__column:hover .our-sevices-content-header__logo-press{
+  background-image: url(../img/our-services/word-active.png);
+}
+.our-sevices-content__column:hover .our-sevices-content-header__logo-dev{
+  background-image: url(../img/our-services/dev-active.png);
+}
+.our-sevices-content__column:hover .our-sevices-content-header__logo-applic{
+  background-image: url(../img/our-services/appl-active.png);
+}
+.our-sevices-content__column:hover .our-sevices-content-header__logo-ui{
+  background-image: url(../img/our-services/ui-active.png);
+}
+.our-sevices-content__column:hover .our-sevices-content-header__logo-respons{
+  background-image: url(../img/our-services/resp-active.png);
+}
+
+@media screen and (max-width:768px){
+  .our-sevices-content__row{
+    flex-direction: column;
+    margin: 0px;
+  }
+  .our-sevices-content__column{
+    margin: 0px auto 30px auto;
+  }
+  .our-sevices-content__column{
+    width: 100%;
+  }
+  .our-sevices .red-line{
+    top: 99.25%;
+  }
+}
+@media screen and (max-width:425px){
+  .our-sevices .red-line{
+    top: 99.4%;
+    left: 25%;
+  }
+}
+@media screen and (max-width:320px){
+  .our-sevices .red-line{
+    top: 99.45%;
+  }
+}
