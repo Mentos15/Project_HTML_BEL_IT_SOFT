@@ -5,8 +5,103 @@
   width: 100%;
 }
 
+@font-face {
+  font-family: RealwayBold; /* Гарнитура шрифта */
+  src: url(../fonts/Raleway-SemiBold.ttf); /* Путь к файлу со шрифтом */
+ }
 
+ @font-face {
+  font-family: LatoReg; /* Гарнитура шрифта */
+  src: url(../fonts/Lato-Regular.ttf); /* Путь к файлу со шрифтом */
+ }
+ @font-face {
+  font-family: LatoBold; /* Гарнитура шрифта */
+  src: url(../fonts/Lato-Bold.ttf); /* Путь к файлу со шрифтом */
+ }
+ @font-face {
+  font-family: RealwayMedium; /* Гарнитура шрифта */
+  src: url(../fonts/Raleway-Medium.ttf); /* Путь к файлу со шрифтом */
+ }
+ @font-face {
+  font-family: Realway; /* Гарнитура шрифта */
+  src: url(../fonts/Raleway-Black.ttf); /* Путь к файлу со шрифтом */
+ }
 
+.plans-besteller-content__order{
+  font-family: Realway;
+}
+
+.reatures-btn__link,
+.free-psd-btn__link,
+.about-us-content-btn__title-1,
+.about-us-content-btn__title-2,
+.about-us-content-btn__title-3,
+.about-us-achievements-block__title,
+.our-product-features-column__photo-free,
+.our-product-features-btn__text,
+.our-clients-content__title,
+.our-teamwork-content-person__name,
+.our-skills-content-progress__title,
+.our-sevices-content-header__title,
+.plans-besteller-content__title,
+.form__title{
+  font-family: RealwayMedium;
+}
+
+.about-us__text,
+.portfolio-header-menu__link,
+.our-product-features__text,
+.our-clients__text,
+.our-clients-content-pagination__title,
+.our-teamwork__text,
+.plans-besteller__text,
+.our-blog__text,
+.fine-us-header__text{
+  font-family: LatoBold;
+}
+
+ .why-creativia__text,
+ .about-us-content__text,
+ .about-us-content__full-text-2,
+ .about-us-content__full-text-1,
+ .about-us-content__full-text-3,
+ .about-us-achievements-block__tex,
+ .portfolio-arts-plus__title,
+ .our-clients-content__text,
+ .our-teamwork-content-person__spec,
+ .our-skills__text,
+ .our-skills-content-progress__text,
+ .our-sevices__text,
+ .our-sevices-content__text,
+ .plans-besteller-content__price,
+ .plans-besteller-content__cpu,
+ .plans-besteller-content__hard,
+ .plans-besteller-content__ram,
+ .plans-besteller-content__trafic,
+ .plans-besteller-content__connection,
+ .plans-besteller-content__ip,
+ .footer-twitter__text,
+ .our-blog-content__text,
+ .our-blog-content__more,
+ .button{
+  font-family: LatoReg;
+ }
+
+ .why-creativia__title,
+ .about-us__title,
+ .portfolio-header__title,
+ .our-product-features__titile,
+ .our-clients__title,
+ .our-teamwork__title,
+ .our-skills__title,
+ .our-sevices__title,
+ .plans-besteller__title,
+ .our-blog__title,
+ .follow-creativia__title,
+ .fine-us-header__title,
+ .our-blog-content__title{
+   font-family: RealwayBold;
+ }
 .second-background{
   background-image: url(../img/why_creativia/background.jpg);
   display: flex;
@@ -17,6 +112,7 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .why-creativia__title .why,.why-creativia__title .creativia{
   color: #fff;
   font-size: 30px;
@@ -48,11 +144,11 @@
   z-index: 2;
 }
 .reatures-btn, .free-psd-btn{
-  background-color: #ff0036;
+  background-color: #131313;
   width: 170px;
 }
-.free-psd-btn{
-  background-color: #131313;
+.reatures-btn:hover, .free-psd-btn:hover{
+  background-color: #ff0036;
 }
 .free-psd-btn__link, .reatures-btn__link{
   color: white;
@@ -61,33 +157,7 @@
   display: block;
   height: 100%;
 }
-.why-creativia-body{
-}
 
-.left-arrow{
-    position: absolute;
-    width: 60px;
-    height: 100%;
-    background-image: url(../img/why_creativia/left.png);
-    background-position: 15px 50%;
-    background-repeat: no-repeat;
-    opacity: 1;
-    color: #a4a4a4;   
-}
-.right-arrow{
-  position: absolute;
-  width: 60px;
-  height: 100%;
-  background-image: url(../img/why_creativia/left.png) ;
-  background-position:  50%;
-  right: 00px;
-  background-repeat: no-repeat;
-  transform: scale(-1,1);
-}
-
-@media screen and (max-width:1350px){
-  
-}
 @media screen and (max-width:1020px){
   .second-background{
   
@@ -110,9 +180,6 @@
 }
 
 @media screen and (max-width:850px){
-  .right-arrow, .left-arrow{
-  background-size: 20px;
-  }
   .why-creativia__text{
     width: 400px;
   }
@@ -131,14 +198,32 @@
     height: auto;
   }
   .why-creativia{
-    height: 405px;
+    height: auto;
   }
 }
 @media screen and (max-width:500px){
   .why-creativia__text{
     width: 200px;
   }
-  .why-creativia{
-    height: 500px;
+  .reatures-btn, .free-psd-btn{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    margin: auto;
   }
+  .reatures-btn{
+    margin-bottom: 20px;
+  }
+  .slick-prev, .slick-next{
+    background-size: 40%;
+  }
+  .why-creativia-buttons{
+    font-size: 15px;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+  
+  
 }

@@ -1,0 +1,12 @@
+.slide{
+  height: inherit;
+}
+
+.slick-track {
+  width: auto;
+  margin-top: 10%;
+}
+.slick-list{
+  margin: 60px;
+}
+

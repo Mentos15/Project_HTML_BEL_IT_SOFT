@@ -19,6 +19,11 @@
   flex: 0 0 20%;
   justify-content: center;
 }
+
+button:hover,
+.our-blog-content__more:hover{
+  cursor: pointer;
+}
 @media screen and (max-width:768px){
   .footer__column:last-child,
   .footer__column:first-child{
