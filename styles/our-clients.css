@@ -82,8 +82,11 @@
   color: white;
   text-decoration: none;
 }
-.active-step{
-  background-color: orange;
+.step:hover{
+  cursor: pointer;
+}
+.pagination .active{
+  background-color: #ff0036;
 }
 .our-clients-content__client-1{
   background-image: url(../img/our-clients/1.png);
