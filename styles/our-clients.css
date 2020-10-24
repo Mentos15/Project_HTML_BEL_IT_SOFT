@@ -30,6 +30,7 @@
 .our-clients__text .red,
 .our-clients-content-pagination__title .red{
   color: #ff0036;
+  text-decoration: none;
 }
 .our-clients__content{
   display: flex;

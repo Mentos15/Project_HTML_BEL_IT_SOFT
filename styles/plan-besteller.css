@@ -8,6 +8,7 @@
 }
 .wrapper .red{
   color: #ff0036;
+  text-decoration: none;
 }
 .plans-besteller__title{
   text-transform: uppercase;
@@ -84,6 +85,7 @@ sub{
 .plans-besteller-content__column:hover .order{
   color: #fff;
   background-color: #ff0036;
+  border: none;
 }
 @media screen and (max-width:1170px){
   .plans-besteller__content{

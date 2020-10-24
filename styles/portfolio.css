@@ -58,7 +58,11 @@
   height: inherit;
   width: 28%;
   position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 .portfolio-arts__photo-2{
   background-image: url(../img/portfolio/2.png);
   width: 21%;
@@ -87,60 +91,34 @@
 .portfolio-arts__photo-8{
   background-image: url(../img/portfolio/8.png);
 }
+
 .portfolio-arts__photo-1-1,
+.portfolio-arts__photo-2-1,
 .portfolio-arts__photo-3-1,
 .portfolio-arts__photo-4-1,
 .portfolio-arts__photo-5-1,
 .portfolio-arts__photo-6-1,
 .portfolio-arts__photo-7-1,
 .portfolio-arts__photo-8-1{
-  background-image: url(../img/portfolio/1-1.png);
-  height: inherit;
-  position: relative;
-  width: 100%;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.portfolio-arts__photo-2-1{
-  background-image: url(../img/portfolio/2-1.png);
   height: inherit;
   width: 100%;
-}
-.portfolio-arts__photo-3-1{
-  background-image: url(../img/portfolio/3-1.png);
-  
-}
-.portfolio-arts__photo-4-1{
-  background-image: url(../img/portfolio/4-1.png);
-  
-}
-.portfolio-arts__photo-5-1{
-  background-image: url(../img/portfolio/5-1.png);
-  
-}
-.portfolio-arts__photo-6-1{
-  background-image: url(../img/portfolio/6-1.png);
-  
-}
-.portfolio-arts__photo-7-1{
-  background-image: url(../img/portfolio/7-1.png);
-  
-}
-.portfolio-arts__photo-8-1{
-  background-image: url(../img/portfolio/8-1.png); 
-}
-.portfolio-arts__plus{
-  background-image: url(../img/portfolio/plus.png); 
-  height: inherit;
-  background-position: 50% 45%;
-  background-size: 30px;
-  background-repeat: no-repeat;
-  color: #fff;
-  text-align: center;
-  line-height: 450px;
 
 }
+.portfolio-arts__photo-1:hover .portfolio-arts__photo-1-1,
+.portfolio-arts__photo-2:hover .portfolio-arts__photo-2-1,
+.portfolio-arts__photo-3:hover .portfolio-arts__photo-3-1,
+.portfolio-arts__photo-4:hover .portfolio-arts__photo-4-1,
+.portfolio-arts__photo-5:hover .portfolio-arts__photo-5-1,
+.portfolio-arts__photo-6:hover .portfolio-arts__photo-6-1,
+.portfolio-arts__photo-7:hover .portfolio-arts__photo-7-1,
+.portfolio-arts__photo-8:hover .portfolio-arts__photo-8-1{
+  cursor: pointer;
+  background-image: url(../img/portfolio/hover.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .red-line{
   height: 20px;
   display: flex;

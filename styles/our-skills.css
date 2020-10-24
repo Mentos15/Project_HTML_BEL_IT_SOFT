@@ -9,6 +9,7 @@
 }
 .our-skills .red{
   color: #ff0036;
+  text-decoration: none;
 }
 .our-skills__text{
   margin: 0px auto 100px 0px;

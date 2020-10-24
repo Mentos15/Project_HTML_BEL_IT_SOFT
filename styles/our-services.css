@@ -16,6 +16,10 @@
 }
 .our-sevices .red{
   color: #ff0036;
+  text-decoration: none;
+}
+.our-sevices-content__column:hover{
+  cursor: pointer;
 }
 .our-sevices-content__column{
   width: 48%;

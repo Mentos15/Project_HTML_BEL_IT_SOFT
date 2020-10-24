@@ -57,6 +57,18 @@
 .follow-creativia-content__text{
   text-align: center;
 }
+.follow-creativia-content__logo-twitter:hover{
+  background-image: url(../img/follow/twitter-hover.png);
+  cursor: pointer;
+}
+.follow-creativia-content__logo-pinterest:hover{
+  background-image: url(../img/follow/pinterest-hover.png);
+  cursor: pointer;
+}
+.follow-creativia-content__logo-google:hover{
+  background-image: url(../img/follow/google-hover.png);
+  cursor: pointer;
+}
 @media screen and (max-width:768px){
   .follow-creativia-content__row:first-child{
     display: none;
